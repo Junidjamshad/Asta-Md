@@ -16,9 +16,9 @@ global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github = process.env.GITHUB || "https://github.com/Astropeda/Asta-Md";
 global.gurl =
-  process.env.GURL || "https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z";
+  process.env.GURL || "https://chat.whatsapp.com/HLaHhHH9RedKDSgoBtNzDQ";
 global.website =
-  process.env.GURL || "https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z";
+  process.env.GURL || "https://chat.whatsapp.com/HLaHhHH9RedKDSgoBtNzDQ";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "";
 global.devs = "2348039607375";
 global.sudo = process.env.SUDO
@@ -59,11 +59,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || "",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "©ᴀsᴛᴀ ᴍᴅ",
-  author: process.env.PACK_AUTHER || "ᴀsᴛᴀ ᴍᴅ",
+  caption: process.env.CAPTION || "© JUNAID MD",
+  author: process.env.PACK_AUTHER || "JUNAID MD,
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "ᴀsᴛᴀ ᴍᴅ",
-  ownername: process.env.OWNER_NAME || "ᴀsᴛᴀ",
+  botname: process.env.BOT_NAME || "JUNAID",
+  ownername: process.env.OWNER_NAME || "JUNAID",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
